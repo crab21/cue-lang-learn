@@ -14,8 +14,8 @@ s: "hello"
 `
 
 func CueFunc() {
-	// CueInit()
-	loadCue()
+	CueInit()
+	// loadCue()
 }
 
 func CueInit() {
@@ -31,7 +31,7 @@ func CueInit() {
 	v = c.CompileString(val)
 
 	// print the value
-	fmt.Println(v)
+	fmt.Println(v.String())
 }
 
 func loadCue() {
